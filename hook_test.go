@@ -1,6 +1,7 @@
-package main_test
+package main
 
 import "testing"
 
 func TestNothing(t *testing.T) {
+	hello()
 }
