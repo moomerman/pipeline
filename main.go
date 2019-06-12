@@ -26,3 +26,7 @@ func handler(w http.ResponseWriter, r *http.Request) {
 
 	fmt.Fprintf(w, "Hi there")
 }
+
+func hello() {
+	log.Println("hello")
+}
